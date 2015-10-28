@@ -13,3 +13,5 @@ ls -Recurse -include *.csproj, *.sln, *.fsproj, *.vbproj |
         write-host messed with $_.Name
     }		    
 }
+
+pause
