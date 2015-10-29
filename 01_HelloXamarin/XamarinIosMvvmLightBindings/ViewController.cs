@@ -31,11 +31,13 @@ namespace MVVMLightBinding
 				() => Vm.PreviousMessage,
 				() => TextLabel.Text);
 
+			EntryTextField.EditingDidEnd += (sender, e) => {};
 			_textFieldBinding = this.SetBinding (
 				() => EntryTextField.Text)
 				.UpdateSourceTrigger ("EditingDidEnd")
 				.WhenSourceChanges (() => Vm.Message = EntryTextField.Text);
 
+			SubmitTextButton.TouchUpInside += (sender, e) => {};
 			SubmitTextButton.SetCommand("TouchUpInside", Vm.MessageCommand);
 		}
 

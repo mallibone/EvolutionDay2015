@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>HelloXamarin.iOS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.helloxamarin.ios</string>
+	<string>com.noser.demo.helloxamarin.ios</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
