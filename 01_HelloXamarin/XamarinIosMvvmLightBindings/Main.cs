@@ -1,5 +1,5 @@
-﻿using UIKit;
-using MVVMLightBinding.ViewModel;
+﻿using HelloXamarin.Core.ViewModel;
+using UIKit;
 
 namespace MVVMLightBinding
 {

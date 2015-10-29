@@ -1,7 +1,6 @@
 ﻿using System;
 
 using UIKit;
-using MVVMLightBinding.ViewModel;
 using GalaSoft.MvvmLight.Helpers;
 using HelloXamarin.Core.ViewModel;
 

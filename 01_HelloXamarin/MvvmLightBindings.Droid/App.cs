@@ -1,4 +1,4 @@
-using HelloXamarin.Droid.ViewModel;
+using HelloXamarin.Core.ViewModel;
 
 namespace HelloXamarin.Droid
 {
